@@ -27,13 +27,14 @@ def two_circles():
     window = rg.RoseWindow(width, height)
     center_point = rg.Point(350, 150)
     radius = 50
-    circle = rg.Circle(center_point, radius)
-    circle.fill_color = 'green'
+    circle1 = rg.Circle(center_point, radius)
+    circle1.fill_color = 'green'
+    circle1.attach_to(window)
     center_point = rg.Point(150, 350)
-    radius = 50
-    circle = rg.Circle(center_point, radius)
-    circle.fill_color = 'blue'
-    circle.attach_to(window)
+    radius = 70
+    circle2 = rg.Circle(center_point, radius)
+    circle2.attach_to(window)
+
     window.close_on_mouse_click()
     """
     -- Constructs an rg.RoseWindow.
@@ -121,6 +122,7 @@ def lines():
     point2 = rg.Point(200, 50)
     line = rg.Line(point1, point2)
     line.attach_to(window)
+    window.close_on_mouse_click()
     """
     -- Constructs a rg.RoseWindow.
     -- Constructs and draws on the window two rg.Lines such that:
