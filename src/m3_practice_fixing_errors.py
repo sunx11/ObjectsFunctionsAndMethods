@@ -3,7 +3,7 @@ This module lets you practice correcting SYNTAX (notation) errors.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
          their colleagues and Xiaoze Sun.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+"""  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
 # DONE: 2.
