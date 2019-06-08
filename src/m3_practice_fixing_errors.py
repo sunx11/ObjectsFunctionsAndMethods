@@ -2,7 +2,7 @@
 This module lets you practice correcting SYNTAX (notation) errors.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Xiaoze Sun.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
@@ -39,13 +39,13 @@ def main():
     tutle_fn()
 
 
-def print_math:
+def print_math():
     """ Prints some calculated values. """
     x = cos(pi)
     print(x)
 
     y = sin(pi)
-    print(The sine of PI is, y)
+    print('The sine of PI is', y)
 
 
 def turtle_fun():
