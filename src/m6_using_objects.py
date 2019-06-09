@@ -34,7 +34,7 @@ def two_circles():
     radius = 70
     circle2 = rg.Circle(center_point, radius)
     circle2.attach_to(window)
-
+    window.render()
     window.close_on_mouse_click()
     """
     -- Constructs an rg.RoseWindow.
@@ -122,6 +122,7 @@ def lines():
     point2 = rg.Point(200, 50)
     line = rg.Line(point1, point2)
     line.attach_to(window)
+    window.render()
     window.close_on_mouse_click()
     """
     -- Constructs a rg.RoseWindow.
